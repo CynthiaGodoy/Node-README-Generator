@@ -1,8 +1,10 @@
 // PACKAGES NEEDED FOR APPLICATION
 const inquirer = require("inquirer");
-const fs = require("fs")
-const generator = require("./utils/generatorMarkdown")
+const fs = require("fs");
 
+const generatorMardown = require("./utils/generatorMarkdown")
+
+// const questions = [
 inquirer
     .prompt([
         {
@@ -12,29 +14,23 @@ inquirer
         },   
         {
         type: "input",
-        message: "What is the project description?",
-        name: "description",
+        message: "Why did you build this project?",
+        name: "why",
         },  
         {
         type: "input",
-        message: "What is the main objective?",
-        name: "objective",
-        },   
-        {
-        type: "checkbox",
-        message: "What was used to make this project?",
-        choices: ['HTML', 'CSS', 'JavaScript', 'MySQL', 'Node.js', 'API'],
-        name: "files",
+        message: "What problems did it solve?",
+        name: "problem",
         },   
         {
         type: "input",
-        message: "How do you use this project?",
-        name: "use",
+        message: "What did you learn?",
+        name: "learn",
         },   
         {
         type: "input",
-        message: "What is the live URL link?",
-        name: "url",
+        message: "How can the user install this application?",
+        name: "install",
         },   
         {
         type: "input",
@@ -42,14 +38,45 @@ inquirer
         name: "screenshot",
         },   
         {
+        type: "input",
+        message: "What are the key features of the application?",
+        name: "features",
+        },   
+        {
+        type: "input",
+        message: "List collaborators and links to GitHub profiles.",
+        name: "contributors",
+        },   
+        {
+        type: "input",
+        message: "Were there any third party assets or tutorial used?",
+        name: "third-party",
+        },    
+        {
+        type: "input",
+        message: "Add your gitHub so users can collaborate.",
+        name: "gitHub",
+        },   
+        {
+        type: "input",
+        message: "Add your email so users can ask questions.",
+        name: "email",
+        },  
+        {
+        type: "input",
+        message: "How can others contribute?",
+        name: "contribute",
+        },     
+        {
         type: "list",
         message: "Choose a license for your project.",
         name: "license",
-        choices: ["Apache", "Academic", "GNU", "ICS", "MIT", "Mozilla", "Open"]
-        },   
+        choices: ["Apache", "Boost", "BSD", "Creative Commons", "Eclipse", "GNU", "Hippocratic", "IBM",  "ICS", "MIT", "Mozilla", "Open", "Unlicensed"]
+        },
+
     ]).then((data) => {
         console.log(data);
-        fs.writeFile("sampleREADME.md", generateMarkdown(data),
+        fs.writeFile("sampleREADME.md", generateMarkdown(data), //FUNCTION TO WRITE README FILE
         error => {
             if (error) {
             console.log("Please input all the data")
@@ -57,17 +84,10 @@ inquirer
         console.log("Your README was generated")
         }
         )})
-
-
-
-// TODO: Create an array of questions for user input
-const questions = [];
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+    // ];
 
 // TODO: Create a function to initialize app
-function init() {}
-
+// function init() {}
+// 
 // Function call to initialize app
-init();
+// init();

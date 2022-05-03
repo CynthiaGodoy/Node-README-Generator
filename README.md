@@ -4,15 +4,15 @@
 
 To create a command-line application that dynamically generates a professional sampleREADME.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). 
 
-## Main Objective
+## Main Objective | How to Use
 
-The application will be invoked by using the following command:
+The application will be invoked by using the following command in bash:
 
 ```bash
 node index.js
 ```
 
-## Items completed in Project
+## Items Completed in Project
 
 ✅When prompted for information, a high quality sampleREADME.md is generated based on the user input.
 
@@ -28,7 +28,9 @@ node index.js
 
 ✅Repo includes a `package.json` with the required dependencies created by running `npm init`.
 
-### Walkthrough Video:
+✅Used [license-badges.md](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
+
+## Walkthrough Video
 
 * A walkthrough video that demonstrates the functionality of the README generator.
 
