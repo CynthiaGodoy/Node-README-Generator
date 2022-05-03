@@ -2,7 +2,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 
-const generatorMardown = require("./utils/generatorMarkdown")
+const generateMarkdown = require("./utils/generateMarkdown")
 
 // const questions = [
 inquirer
@@ -50,7 +50,7 @@ inquirer
         {
         type: "input",
         message: "Were there any third party assets or tutorial used?",
-        name: "third-party",
+        name: "thirdparty",
         },    
         {
         type: "input",

@@ -1,5 +1,5 @@
 // FUNCTION TO CREATE A LICENSE TO PASS THROUGH "Apache", "Boost", "BSD", "Creative Commons", "Eclipse", "GNU", "Hippocratic", "IBM",  "ICS", "MIT", "Mozilla", "Open", "Unlicensed"
-function renderLicenseBadge(license) {
+function renderLicense(license) {
   if (license === "Apache") {
     return "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
   }
@@ -72,44 +72,38 @@ ${data.learn}
 
 ## Table of Contents
 - [License](#License)
-- [Installation and Testing](#Installation and Testing)
+- [Installation](#Installation)
 - [Features](#Features)
 - [Credits](#Credits)
 - [Tests](#Tests)
 - [Questions](#Questions)
-- [How to Contribute](#How to Contribute)
+- [Contribute](#How)
 - [Screenshot](#Screenshot)
 
 ## License
-
 This project is licensed under ${renderLicense(data.license)}
 
-## Installation and Testing
-
-To install or use this application, please follow the steps below:
-
+## Installation | Testing
+To install or test this application, please follow the steps below:
 ${data.install}
 
 ## Features
-
+The features of this project include:
 ${data.features}
 
-## Credits & Third-party tutorials
-
+## Credits | Third-party Sources
+Credits, Third-party Sources used are:
 ${data.contributors}
-${data.third-party}
+${data.thirdparty}
 
 ## Questions
-
 If you have any questions about this project, please contact me directly at ${data.email}. You can view more of my projects at https://github.com/${data.github}.
 
 ## How to Contribute
-
+The industry standard for [open source communities](https://www.contributor-covenant.org/) but feel free to
 ${data.contribute}
-The industry standard for [open source communities](https://www.contributor-covenant.org/).
 
 ## Screenshot
-
 ![](images/screenshot.PNG)
 
 `;
