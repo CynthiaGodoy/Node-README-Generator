@@ -66,19 +66,51 @@ function generateMarkdown(data) {
   return `# ${data.title}
 
 ## Description
-- ${data.why}
-- ${data.problem}
-- ${data.learn}
+${data.why}
+${data.problem}
+${data.learn}
 
 ## Table of Contents
-- [License](#license)
-- [Installation](#installation)
-- [Features](#features)
-- [Credits](#contributors)
-- [Tests](#tests)
-- [Questions](#questions)
-- [How to Contribute](#how to contribute)
+- [License](#License)
+- [Installation and Testing](#Installation and Testing)
+- [Features](#Features)
+- [Credits](#Credits)
+- [Tests](#Tests)
+- [Questions](#Questions)
+- [How to Contribute](#How to Contribute)
+- [Screenshot](#Screenshot)
 
+## License
+
+This project is licensed under ${renderLicense(data.license)}
+
+## Installation and Testing
+
+To install or use this application, please follow the steps below:
+
+${data.install}
+
+## Features
+
+${data.features}
+
+## Credits & Third-party tutorials
+
+${data.contributors}
+${data.third-party}
+
+## Questions
+
+If you have any questions about this project, please contact me directly at ${data.email}. You can view more of my projects at https://github.com/${data.github}.
+
+## How to Contribute
+
+${data.contribute}
+The industry standard for [open source communities](https://www.contributor-covenant.org/).
+
+## Screenshot
+
+![](images/screenshot.PNG)
 
 `;
 }
