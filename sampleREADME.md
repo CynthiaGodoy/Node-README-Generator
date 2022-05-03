@@ -28,7 +28,6 @@ Node.js, opensoucre.org license badges, list features, input features, json file
 
 ## Credits | Third-party Sources
 Credits, Third-party Sources used are:
-none
 https://www.youtube.com/watch?v=xMoAZVIiGT0&ab_channel=SamMeske
 
 ## Questions
