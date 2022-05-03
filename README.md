@@ -24,7 +24,7 @@ node index.js
 
 ✅When the Table of Contents section is clicked, then you are taken to the corresponding section of the README.
 
-✅Repo includes `.gitignore` file and include `node_modules/` and `.DS_Store/` so that your `node_modules` directory isn't tracked or uploaded to GitHub. Be sure to create your `.gitignore` file before installing any npm dependencies.
+✅Repo includes `.gitignore` file and include `node_modules/` and `.DS_Store/` so that `node_modules` directory isn't tracked or uploaded to GitHub. Be sure to create your `.gitignore` file before installing any npm dependencies.
 
 ✅Repo includes a `package.json` with the required dependencies created by running `npm init`.
 
