@@ -37,8 +37,8 @@ node index.js
 [Screencastify](https://drive.google.com/file/d/1QZucRVtSBOervt-tZ8cGSMA7J5aUFT_j/view)
 
 ## Screenshot
-![](images/Screenshot.PNG)
-![](images/Screenshot2.PNG)
+![](images/screenshot.PNG)
+![](images/screenshot2.PNG)
 
 - - -
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
