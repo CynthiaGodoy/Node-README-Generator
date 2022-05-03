@@ -1,6 +1,7 @@
+// PACKAGES NEEDED FOR APPLICATION
 const inquirer = require("inquirer");
 const fs = require("fs")
-const generator = require("./utility/generatorMarkdown")
+const generator = require("./utils/generatorMarkdown")
 
 inquirer
     .prompt([
@@ -20,8 +21,9 @@ inquirer
         name: "objective",
         },   
         {
-        type: "input",
+        type: "checkbox",
         message: "What was used to make this project?",
+        choices: ['HTML', 'CSS', 'JavaScript', 'MySQL', 'Node.js', 'API'],
         name: "files",
         },   
         {
@@ -47,7 +49,7 @@ inquirer
         },   
     ]).then((data) => {
         console.log(data);
-        fs.writeFile("README.md", generateMarkdown(data),
+        fs.writeFile("sampleREADME.md", generateMarkdown(data),
         error => {
             if (error) {
             console.log("Please input all the data")
@@ -55,3 +57,17 @@ inquirer
         console.log("Your README was generated")
         }
         )})
+
+
+
+// TODO: Create an array of questions for user input
+const questions = [];
+
+// TODO: Create a function to write README file
+function writeToFile(fileName, data) {}
+
+// TODO: Create a function to initialize app
+function init() {}
+
+// Function call to initialize app
+init();
