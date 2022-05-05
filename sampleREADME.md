@@ -28,11 +28,10 @@ Node.js, opensoucre.org license badges, list features, input features, json file
 
 ## Credits | Third-party Sources
 Credits, Third-party Sources used are:
-none
 https://www.youtube.com/watch?v=xMoAZVIiGT0&ab_channel=SamMeske
 
 ## Questions
-If you have any questions about this project, please contact me directly at Cynthia@ck-interiors.com. You can view more of my projects at https://github.com/undefined.
+If you have any questions about this project, please contact me directly at Cynthia@ck-interiors.com. You can view more of my projects at https://github.com/CynthiaGodoy.
 
 ## How to Contribute
 The industry standard for [open source communities](https://www.contributor-covenant.org/) but feel free to
