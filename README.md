@@ -1,4 +1,4 @@
-# 09 Node.js Challenge: Professional README Generator
+# Node.js, CLI: Professional README Generator
 
 ## Project Description
 
