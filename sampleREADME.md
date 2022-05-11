@@ -6,14 +6,14 @@ It creates files that are organized and consistent with an accessible list of li
 This project teaches you how to use Node.js and Inquirer in back-end development.
 
 ## Table of Contents
-- [License](#License)
-- [Installation](#Installation & Testing)
-- [Features](#Features)
-- [Credits](#Credits)
-- [Tests](#Tests)
-- [Questions](#Questions)
-- [Contribute](#How)
-- [Screenshot](#Screenshot)
+- [License](#license)
+- [Installation](#installation)
+- [Features](#features)
+- [Credits](## Credits | Third-party Sources)
+- [Tests](#tests)
+- [Questions](#questions)
+- [Contribute](#how)
+- [Screenshot](#screenshot)
 
 ## License
 This project is licensed under [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
