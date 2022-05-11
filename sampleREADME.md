@@ -7,7 +7,7 @@ This project teaches you how to use Node.js and Inquirer in back-end development
 
 ## Table of Contents
 - [License](#License)
-- [Installation](#Installation)
+- [Installation](#Installation & Testing)
 - [Features](#Features)
 - [Credits](#Credits)
 - [Tests](#Tests)
