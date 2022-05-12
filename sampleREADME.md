@@ -1,41 +1,49 @@
-# Node-Readme-Generator
+# asdf
 
 ## Description
-This project was built to that developers can create README.md files.
-It creates files that are organized and consistent with an accessible list of licenses to use.
-This project teaches you how to use Node.js and Inquirer in back-end development.
+sadfq
+qwer
+qwe
 
 ## Table of Contents
 - [License](#license)
 - [Installation](#installation)
-- [Features](#features)
-- [Credits](## Credits | Third-party Sources)
+- [Usage](#usage)
 - [Tests](#tests)
+- [Credits](#credits)
 - [Questions](#questions)
-- [Contribute](#how)
-- [Screenshot](#screenshot)
+- [Contribute](#contributors)
+- [Screenshot](#Screenshot)
 
 ## License
-This project is licensed under [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+For detailed license information click on the badge below.
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+This project is licensed under: Apache License Version 2.0, January 2004
 
-## Installation | Testing
+## Installation
 To install or test this application, please follow the steps below:
-Open the source files in VsCode and run Node index.js in the Terminal
+qwer
 
-## Features
-The features of this project include:
-Node.js, opensoucre.org license badges, list features, input features, json files, gitignore
+## Usage
+To use this application, please follow the steps below:
+qwer
 
-## Credits | Third-party Sources
-Credits, Third-party Sources used are:
-[youtube](https://www.youtube.com/watch?v=xMoAZVIiGT0&ab_channel=SamMeske)
+## Tests
+To run a test on this application, please follow the steps below:
+qwer
+
+## Credits
+Credits & Third-party Sources used are:
+qwer
+qwer
 
 ## Questions
-If you have any questions about this project, please contact me directly at Cynthia@ck-interiors.com. You can view more of my projects at https://github.com/CynthiaGodoy.
+If you have any questions about this project, please contact me directly at qwer. 
+You can view more of my projects at [my GitHub](https://github.com/qwer).
 
-## How to Contribute
-The industry standard for [open source communities](https://www.contributor-covenant.org/) but feel free to
-Feel free to fork
+## Contributions
+The industry standard for [open source communities](https://www.contributor-covenant.org/)
+qwer
 
 ## Screenshot
 ![](images/screenshot.PNG)
