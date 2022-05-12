@@ -12,7 +12,7 @@ qwe
 - [Tests](#tests)
 - [Credits](#credits)
 - [Questions](#questions)
-- [Contribute](#contributors)
+- [Contribute](#contribute)
 - [Screenshot](#Screenshot)
 
 ## License
