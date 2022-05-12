@@ -1,12 +1,12 @@
 {
-  "name": "static-site",
+  "name": "node-readme-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "a readme generator made with Node.js and Inquirer",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "cynthia",
   "license": "ISC",
   "dependencies": {
     "inquirer": "^6.5.2"
