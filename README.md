@@ -2,7 +2,11 @@
 
 ## Project Description
 
-To create a command-line application that dynamically generates a professional sampleREADME.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). 
+To create a command-line application that dynamically generates a professional sampleREADME.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). To install inquirer use the following command in the terminal:
+
+```bash
+npm i inquirer
+```
 
 ## Main Objective | How to Use
 
