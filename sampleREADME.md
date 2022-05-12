@@ -16,9 +16,8 @@ qwe
 - [Screenshot](#Screenshot)
 
 ## License
-For detailed license information click on the badge below.
 [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-This project is licensed under: Apache License Version 2.0, January 2004
+For detailed license information click on the badge. This project is licensed under: Apache License Version 2.0, January 2004
 
 ## Installation
 To install or test this application, please follow the steps below:
