@@ -26,7 +26,13 @@ inquirer
         type: "input",
         message: "What did you learn?",
         name: "learn",
-        },   
+        }, 
+        {
+        type: "list",
+        message: "Choose a license for your project.",
+        name: "license",
+        choices: ["Apache", "Boost", "BSD", "Creative Commons", "Eclipse", "GNU", "Hippocratic", "IBM",  "ICS", "MIT", "Mozilla", "Open", "Unlicensed"]
+        },
         {
         type: "input",
         message: "How can the user install this application?",
@@ -34,46 +40,44 @@ inquirer
         },   
         {
         type: "input",
-        message: "Add a screenshot using ![](images/screenshot.PNG)",
-        name: "screenshot",
+        message: "How do you use this application?",
+        name: "usage",
         },   
         {
         type: "input",
-        message: "What are the key features of the application?",
-        name: "features",
-        },   
+        message: "Are there any tests on this application? If yes, please describe.",
+        name: "tests",
+        }, 
         {
         type: "input",
-        message: "List collaborators and links to GitHub profiles.",
-        name: "contributors",
+        message: "List collaborators with a link to their profile.",
+        name: "credits",
         },   
         {
         type: "input",
         message: "Were there any third party assets or tutorial used?",
         name: "thirdparty",
-        },    
-        {
-        type: "input",
-        message: "Add your gitHub so users can collaborate.",
-        name: "gitHub",
-        },   
+        },
         {
         type: "input",
         message: "Add your email so users can ask questions.",
         name: "email",
-        },  
+        }, 
         {
         type: "input",
-        message: "How can others contribute?",
-        name: "contribute",
-        },     
+        message: "Add your gitHub username so users can collaborate.",
+        name: "github",
+        },   
         {
-        type: "list",
-        message: "Choose a license for your project.",
-        name: "license",
-        choices: ["Apache", "Boost", "BSD", "Creative Commons", "Eclipse", "GNU", "Hippocratic", "IBM",  "ICS", "MIT", "Mozilla", "Open", "Unlicensed"]
-        },
-
+        type: "input",
+        message: "How can others contribute? Permission to fork the repo?",
+        name: "contribute",
+        }, 
+        {
+        type: "input",
+        message: "Add a screenshot using ![](images/screenshot.PNG)",
+        name: "screenshot",
+        },   
     ]).then((data) => {
         console.log(data);
         fs.writeFile("sampleREADME.md", generateMarkdown(data), //FUNCTION TO WRITE README FILE
@@ -84,10 +88,3 @@ inquirer
         console.log("Your README was generated")
         }
         )})
-    // ];
-
-// TODO: Create a function to initialize app
-// function init() {}
-// 
-// Function call to initialize app
-// init();

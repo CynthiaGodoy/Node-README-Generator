@@ -16,11 +16,11 @@ node index.js
 
 ✅When prompted for information, a high quality sampleREADME.md is generated based on the user input.
 
-✅The sampleREADME will include: Description, Installation Instructions, Usage Information, Contribution Guidlines, and Test Instructions.
+✅The **sampleREADME** will include: Description, Installation Instructions, Usage Information, Contribution Guidelines, and Test Instructions.
 
-✅The badge for the license will be added near the top of the sampleREADME.md along with a section which explains what is covered by that license.
+✅The badge for the license will be added near the top of the sampleREADME.md along with a section which explains what the license is. Badge is clickable and directs user to the detailed license page.
 
-✅The Question section will include: GitHub User Name with link, Email address, and/or any additional ways to reach the creator.
+✅The Question section will include: GitHub Username with link, Email address, and/or any additional ways to reach the creator.
 
 ✅When the Table of Contents section is clicked, then you are taken to the corresponding section of the README.
 
@@ -34,7 +34,7 @@ node index.js
 
 * A walkthrough video that demonstrates the functionality of the README generator.
 
-[Screencastify](https://drive.google.com/file/d/1QZucRVtSBOervt-tZ8cGSMA7J5aUFT_j/view)
+[Screencastify](https://drive.google.com/file/d/1_7ixdDjl8AyEtuVE6cSSTiSuwEvdROb3/view)
 
 ## Screenshot
 ![](images/screenshot.PNG)

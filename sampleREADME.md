@@ -1,9 +1,9 @@
-# asdf
+# Node Readme Generator
 
 ## Description
-sadfq
-qwer
-qwe
+This project was built so the developers can create easy readme files.
+It creates files that are organized and consistent.
+This project teaches you how to use Node and Inquirer for back-end development.
 
 ## Table of Contents
 - [License](#license)
@@ -16,33 +16,33 @@ qwe
 - [Screenshot](#Screenshot)
 
 ## License
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-For detailed license information click on the badge. This project is licensed under: Apache License Version 2.0, January 2004
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+For detailed license information click on the badge. This project is licensed under: The MIT License
 
 ## Installation
-To install or test this application, please follow the steps below:
-qwer
+To install this application, please follow the steps below:
+Open the source files in vsCode and run Node index.js in the terminal.
 
 ## Usage
 To use this application, please follow the steps below:
-qwer
+Go step by step and answer the questions. At the end of the questions a readme file should be generated.
 
 ## Tests
 To run a test on this application, please follow the steps below:
-qwer
+There are no tests on this application.
 
 ## Credits
 Credits & Third-party Sources used are:
-qwer
-qwer
+n/a
+[youtube](https://www.youtube.com/watch?v=xMoAZVIiGT0&t=58s&ab_channel=SamMeske)
 
 ## Questions
-If you have any questions about this project, please contact me directly at qwer. 
-You can view more of my projects at [my GitHub](https://github.com/qwer).
+If you have any questions about this project, please contact me directly at cynthia@ck-interiors.com. 
+You can view more of my projects at [My GitHub](https://github.com/CynthiaGodoy).
 
 ## Contributions
 The industry standard for [open source communities](https://www.contributor-covenant.org/)
-qwer
+Please feel free to fork the repo and make it better.
 
 ## Screenshot
 ![](images/screenshot.PNG)

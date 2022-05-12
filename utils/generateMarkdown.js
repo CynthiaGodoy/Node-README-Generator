@@ -1,8 +1,8 @@
-// FUNCTION TO CREATE A LICENSE TO PASS THROUGH "Apache", "Boost", "BSD", "Creative Commons", "Eclipse", "GNU", "Hippocratic", "IBM",  "ICS", "MIT", "Mozilla", "Open", "Unlicensed"
+// FUNCTION TO CREATE A CLICKABLE BADGE TO A DETAILED SITE ABOUT LICENSE
 function renderLicense(license) {
   if (license === "Apache") {
     return "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
-  }
+    }
 
   if (license === "Boost") {
     return "[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)"
@@ -53,13 +53,60 @@ function renderLicense(license) {
   }
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-// function renderLicenseLink(license) { }
-// 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-// function renderLicenseSection(license) { }
+//FUNCTION TO CREATE REDUNDANT INFORMATION ON THE LICENSE
+function renderInfo(license) {
+  if (license === "Apache") {
+    return "Apache License Version 2.0, January 2004"
+    }
+
+  if (license === "Boost") {
+    return "Boost Software License - Version 1.0 - August 17th, 2003"
+  }
+
+  if (license === "BSD") {
+    return "The 3-Clause BSD License"
+  }
+
+  if (license === "Creative Commons") {
+    return "CC0 1.0 Universal (CC0 1.0) Public Domain Dedication"
+  }
+
+  if (license === "Eclipse") {
+    return "Eclipse Public License 1.0 (EPL-1.0)(NOTE: This license has been superseded by the Eclipse Public License version 2.0)"
+}
+
+if (license === "GNU") {
+return "GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007 Copyright © 2007 Free Software Foundation, Inc."
+}
+
+if (license === "Hippocratic") {
+return "Hippocratic License 3.0"
+}
+
+  if (license === "IBM") {
+    return "IBM Public License Version 1.0 (IPL-1.0)"
+  }
+
+  if (license === "ICS") {
+    return "ISC License (ISC)"
+  }
+
+  if (license === "MIT") {
+    return "The MIT License"
+  }
+
+  if (license === "Mozilla") {
+    return "Mozilla Public License 2.0 (MPL-2.0)"
+  }
+
+  if (license === "Open") {
+    return "Open Data Commons Attribution License (ODC-By)"
+  }
+
+  if (license === "Unlicensed") { //RETURN AN EMPTY SCREEN
+    return " "
+  }
+}
 
 // FUNCTION TO GENERATE MARKDOWN FOR README
 function generateMarkdown(data) {
@@ -71,36 +118,42 @@ ${data.problem}
 ${data.learn}
 
 ## Table of Contents
-- [License](#License)
-- [Installation](#Installation)
-- [Features](#Features)
-- [Credits](#Credits)
-- [Tests](#Tests)
-- [Questions](#Questions)
-- [Contribute](#How)
+- [License](#license)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Tests](#tests)
+- [Credits](#credits)
+- [Questions](#questions)
+- [Contribute](#contribute)
 - [Screenshot](#Screenshot)
 
 ## License
-This project is licensed under ${renderLicense(data.license)}
+${renderLicense(data.license)}
+For detailed license information click on the badge. This project is licensed under: ${renderInfo(data.license)}
 
-## Installation | Testing
-To install or test this application, please follow the steps below:
+## Installation
+To install this application, please follow the steps below:
 ${data.install}
 
-## Features
-The features of this project include:
-${data.features}
+## Usage
+To use this application, please follow the steps below:
+${data.usage}
 
-## Credits | Third-party Sources
-Credits, Third-party Sources used are:
-${data.contributors}
+## Tests
+To run a test on this application, please follow the steps below:
+${data.tests}
+
+## Credits
+Credits & Third-party Sources used are:
+${data.credits}
 ${data.thirdparty}
 
 ## Questions
-If you have any questions about this project, please contact me directly at ${data.email}. You can view more of my projects at https://github.com/${data.github}.
+If you have any questions about this project, please contact me directly at ${data.email}. 
+You can view more of my projects at [My GitHub](https://github.com/${data.github}).
 
-## How to Contribute
-The industry standard for [open source communities](https://www.contributor-covenant.org/) but feel free to
+## Contributions
+The industry standard for [open source communities](https://www.contributor-covenant.org/)
 ${data.contribute}
 
 ## Screenshot
