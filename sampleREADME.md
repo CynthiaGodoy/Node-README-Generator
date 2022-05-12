@@ -40,10 +40,9 @@ n/a
 If you have any questions about this project, please contact me directly at cynthia@ck-interiors.com. 
 You can view more of my projects at [My GitHub](https://github.com/CynthiaGodoy).
 
-## Contributions
+## Contribute
 The industry standard for [open source communities](https://www.contributor-covenant.org/)
 Please feel free to fork the repo and make it better.
 
 ## Screenshot
 ![](images/screenshot.PNG)
-

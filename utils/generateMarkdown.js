@@ -152,7 +152,7 @@ ${data.thirdparty}
 If you have any questions about this project, please contact me directly at ${data.email}. 
 You can view more of my projects at [My GitHub](https://github.com/${data.github}).
 
-## Contributions
+## Contribute
 The industry standard for [open source communities](https://www.contributor-covenant.org/)
 ${data.contribute}
 
