@@ -38,7 +38,7 @@ node index.js
 
 * A walkthrough video that demonstrates the functionality of the README generator.
 
-[Screencastify](https://drive.google.com/file/d/1_7ixdDjl8AyEtuVE6cSSTiSuwEvdROb3/view)
+[View on Google Drive](https://drive.google.com/file/d/1_7ixdDjl8AyEtuVE6cSSTiSuwEvdROb3/view)
 
 ## Screenshot
 ![](images/screenshot.PNG)
